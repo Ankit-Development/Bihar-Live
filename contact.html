@@ -44,6 +44,8 @@
         firebase.analytics();
     </script>
 
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -72,7 +74,7 @@
 
 
                     <div class="navbar-nav mr-auto">
-                        <a href="index.html" class="nav-item nav-link active">HOME</a>
+                        <a href="index.html" class="nav-item nav-link ">HOME</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
                             <div class="dropdown-menu">
@@ -80,7 +82,7 @@
                                 <a href="#" class="dropdown-item">2nd Item</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Join Whatsapp</a>
+                        <a href="contact.html" class="nav-item nav-link active">Join Whatsapp</a>
                     </div>
                     <div class="social ml-auto">
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,59 +102,105 @@
         <div class="container">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Contact</li>
+                <li class="breadcrumb-item active">Join Us</li>
             </ul>
         </div>
     </div>
     <!-- Breadcrumb End -->
 
-    <!-- Contact Start -->
-    <div class="contact">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <div class="contact-form">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your Name" />
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" placeholder="Your Email" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Subject" />
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <div><button class="btn" type="submit">Send Message</button></div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-info">
-                        <h3>Get in Touch</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus.
-                        </p>
-                        <h4><i class="fa fa-map-marker"></i>123 News Street, NY, USA</h4>
-                        <h4><i class="fa fa-envelope"></i>info@example.com</h4>
-                        <h4><i class="fa fa-phone"></i>+123-456-7890</h4>
-                        <div class="social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                        </div>
+
+
+
+
+
+    <div class="cont">
+
+
+
+        <!-- This example requires Tailwind CSS v2.0+ -->
+        <div class="flex flex-col">
+            <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                    <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                        Group Name
+                                    </th>
+                                    <th scope="col" class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                        Join Link
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <hr>
+                            <hr><br>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="text-sm text-gray-900">Ranchi Live 5</div>
+                                    </td>
+
+                                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                        <a href="https://chat.whatsapp.com/HnQBD9f3vObEloagkEOQ4D" class="text-indigo-600 hover:text-indigo-900">
+                                            <button class="btn">Join Group</button></a>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="text-sm text-gray-900">Bihar Live 3</div>
+                                    </td>
+
+                                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                        <a href="https://chat.whatsapp.com/BKXvDZO1y7n3jyNhBnpHeN" class="text-indigo-600 hover:text-indigo-900">
+                                            <button class="btn">Join Group</button></a>
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td class="px-6 py-4 whitespace-nowrap">
+                                        <div class="text-sm text-gray-900">Bihar Live 3 Banka</div>
+                                    </td>
+
+                                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                        <a href="https://chat.whatsapp.com/KHUARnyv93QJqjwpBBTUOR" class="text-indigo-600 hover:text-indigo-900">
+                                            <button class="btn">Join Group</button></a>
+                                    </td>
+
+                                </tr>
+
+
+
+
+                                <!-- More people... -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+
+
+
     </div>
-    <!-- Contact End -->
+
+
+
+
+
 
     <!-- Footer Start -->
     <div class="footer">
