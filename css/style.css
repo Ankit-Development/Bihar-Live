@@ -351,6 +351,11 @@ a.navbar-brand {
     }
 }
 
+a.navbar-brand {
+    font-weight: 200px;
+    font-size: xx-large;
+}
+
 @media (max-width: 768px) {
     .nav-bar,
     .nav-bar .navbar {
