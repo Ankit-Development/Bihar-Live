@@ -21,10 +21,12 @@
     <link href="lib/slick/slick.css" rel="stylesheet">
     <link href="lib/slick/slick-theme.css" rel="stylesheet">
 
-
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="Addit/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -74,6 +76,7 @@
         </div>
     </div>
     <!-- Nav Bar End -->
+
 
     <br>
     <center>
@@ -639,7 +642,52 @@
 
 
 
+ <br>
+ <center>
+   
+    <div class="container my-4 ">
+        <h2 class="text-center ">Shedular</h2>
 
+        <div class="form-group ">
+            <label for="title ">Title</label>
+            <input type="text " class="form-control " id="title " aria-describedby="emailHelp ">
+            <small id="emailHelp " class="form-text text-muted ">Add an item to the list</small>
+        </div>
+
+        <div class="form-group ">
+            <label for="description ">Description</label>
+            <textarea class="form-control " id="description " rows="3 "></textarea>
+        </div>
+
+
+        <button id="add " class="btn btn-primary ">Add to list</button>
+        <button id="clear " class="btn btn-primary " onclick="clearStorage() ">Clear list</button>
+
+
+        <div id="items " class="my-4 ">
+            <h2>Your Items</h2>
+            <table class="table ">
+                <thead>
+                    <tr>
+                        <th scope="col ">SNo</th>
+                        <th scope="col ">Item Title</th>
+                        <th scope="col ">Item Description</th>
+                        <th scope="col ">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody ">
+                    <tr>
+                        <th scope="row ">1</th>
+                        <td>Get some Coffee</td>
+                        <td>You need coffee as you are a coder</td>
+                        <td><button class="btn btn-sm btn-primary ">Delete</button></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</center>
 
 
 
@@ -762,6 +810,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js "></script>
+    <script src="Addit/index.js "></script>
 </body>
 
 </html>
