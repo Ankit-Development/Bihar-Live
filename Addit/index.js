@@ -29,10 +29,9 @@ function update() {
     itemJsonArray.forEach((element, index) => {
         str += `
                     <tr>
-                    <th scope="row">${index + 1}</th>
-                    <td>${element[0]}</td>
-                    <td>${element[1]}</td> 
-                    <td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Delete</button></td> 
+                    <td><b>${element[0]}</b></td><br>
+                    <td>${element[1]}</td> <br><<hr>
+                    <td><button class="btn btn-sm btn-primary" onclick="deleted(${index})">Delete</button></td> <br>
                     </tr>`;
     });
     tableBody.innerHTML = str;
