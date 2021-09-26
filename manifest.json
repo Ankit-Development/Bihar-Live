@@ -1,0 +1,15 @@
+{
+    "name": "Tinkernut",
+    "version": "0.1",
+    "manifest version": 2,
+    "description": "Hack some fun into your weekend!",
+    "urls": ["http://www.tinkernut.com"]. "launch":{
+    "app":{
+          "urls":["https://ankit-development.github.io/Bihar-Live/"],
+          "lunch":{
+                   "web-url": "https://github.com/"
+           }
+    },
+
+                
+}
